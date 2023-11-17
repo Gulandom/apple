@@ -1,0 +1,193 @@
+
+.hero{
+   padding-top: 16px;
+    background-color: #D0EAFC;
+}
+
+.hero__title{
+color: #1E3240;
+font-family: SF Pro Display;
+font-size: 37.068px;
+font-weight: 700;
+
+}
+
+.hero__img {
+  img {
+    vertical-align: bottom;
+  }
+}
+.hero__span{
+    width: 42px;
+    height: 19px;
+    display: inline-block;
+    border-radius: 210.613px;
+border: 4.633px solid #1E3240;
+
+}
+.hero__tatil{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 16px;
+}
+.hero__titil1{
+color: #1E3240;
+font-family: SF Pro Display;
+font-size: 20px;
+font-weight: 400;
+
+}
+.hero__titil2{
+color: #1E3240;
+font-family: SF Pro Display;
+font-size: 32px;
+font-weight: 400;
+
+}
+
+.hero_btn{
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color:  #0071E4;
+    display: flex;
+    width: 160px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+     gap: 8px;
+    flex-shrink: 0;  
+   margin-top: 8px;
+}
+.hero__navbar{
+    margin-top: 16px;
+}
+.imgs2{
+  display: none;
+}
+.hero__container{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+.imgs3{
+  display: none;
+}
+
+@media screen and (min-width:768px) {
+ .hero__title{
+    font-family: SF Pro Display;
+    font-size: 59.309px;
+     font-weight: 700;
+     display: flex;
+     align-items: center;
+
+     .hero__span{
+        padding-top: 16px;
+        width: 68px;
+        height: 30px;
+        display: inline-block;
+        border-radius: 210.613px;
+         border: 4.633px solid #1E3240;
+    
+     }  
+    
+ } 
+ .hero__titil1{
+    font-family: SF Pro Display;
+    font-size: 32px;
+    font-weight: 400;
+  
+ }
+ .hero__titil2{
+color: #1E3240;
+font-family: SF Pro Display;
+font-size: 48px;
+font-weight: 400;
+ }
+.hero__img{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+img{
+    margin-left: auto;
+    margin-right: auto;   
+}
+}
+.hero_btn{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+.imgs{
+  display: none;
+}
+.imgs2{
+  display: flex;
+  
+}
+.imgs3{
+  display: none;
+}
+
+
+
+    
+}
+@media screen and (min-width:1200px) {
+.hero_content{
+    display: flex;
+    align-items: center;
+    flex-direction:row-reverse;
+    gap: 48px;
+}
+.hero__title{
+color: #1E3240;
+font-family: SF Pro Display;
+font-size: 88px;
+font-weight: 700;
+padding-bottom: 19px;
+
+}
+.hero__span{
+  width: 101px;
+  height: 45px;
+  border-radius: 500px;
+border: 11px solid #1E3240;
+}
+.hero__titil1{
+  color: #1E3240;
+font-family: SF Pro Display;
+font-size: 32px;
+font-weight: 400;
+
+}
+
+.hero__titil2{
+  color: #1E3240;
+font-family: SF Pro Display;
+font-size: 48px;
+font-weight: 400;
+
+}
+.imgs{
+  display: none;
+}
+.imgs2{
+  display: none;
+}
+.imgs3{
+  display: flex;
+}
+
+
+   
+}

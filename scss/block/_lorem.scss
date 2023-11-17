@@ -1,0 +1,164 @@
+.lorem__tatil{
+color:  #100E0E;
+font-family: SF Pro Display;
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 8px;
+
+}
+.lorem__text{
+color:  #585656;
+font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 400;
+
+}
+.lorem__tatil_div{
+  display: flex;
+  // align-items: center;
+  flex-direction: column;
+  padding: 16px 16px 16px 0;
+}
+.lorems{
+  background-color: #000;
+}
+.lorems__tatil{
+  color: #FFF;
+font-family: SF Pro Display;
+font-size: 20px;
+font-weight: 700;
+margin-top: 4px;
+
+}
+.lorems__tatil1{
+  color: #FFF;
+font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 500;
+margin-bottom: 16px;
+
+}
+.lorems__bten{
+  color: #FFF;
+font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 500;
+display: flex;
+width: 160px;
+height: 40px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 8px;
+background-color:  #0071E4;
+
+}
+.lorems__content{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.img2{
+  display: none;
+}
+.img3{
+  display: none;
+}
+
+
+@media screen and (min-width:768px) {
+  .lorem__tatil{
+    color:  #100E0E;
+    font-family: SF Pro Display;
+    font-size: 32px;
+    font-weight: 700;
+    width: 687px;
+    padding-bottom: 16px;
+
+  }
+  .lorem__text{
+    color: #585656;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+    width: 720px;
+    
+  }
+  .lorems__content{
+    display: flex;
+    align-items: center;
+    gap: 72px;
+  }
+  .img1{
+    display: none;
+  }
+  .img2{
+    display: flex;
+  }
+ .lorems__tatil{
+  color: #FFF;
+font-family: SF Pro Display;
+font-size: 32px;
+font-weight: 700;
+
+ }
+ .lorems__tatil1{
+  color: #FFF;
+font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 500;
+
+ }
+ .img3{
+  display: none;
+ }
+  
+}
+@media screen and (min-width:1200px) {
+.img3{
+  display: flex;
+}
+.img1{
+  display: none;
+}
+.img2{
+  display: none;
+}
+  .lorems__tatil{
+  color: #FFF;
+font-family: SF Pro Display;
+font-size: 56px;
+font-weight: 700;
+
+  }
+  .lorems__tatil1{
+  color: #FFF;
+font-family: SF Pro Display;
+font-size: 24px;
+font-weight: 500;
+
+  }
+  .lorems__content{
+    display: flex;
+    align-items: center;
+    gap: 88px;
+  }
+  .lorem__tatil{
+    color:  #100E0E;
+font-family: SF Pro Display;
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 22px;
+
+  }
+  .lorem__text{
+    color: #585656;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+
+  }
+
+}

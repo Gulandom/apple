@@ -1,0 +1,212 @@
+.about__tatil{
+  color:  #100E0E;
+font-family: SF Pro Display;
+font-size: 24px;
+font-weight: 500;
+
+}
+.about__tatil_div{
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 16px;
+
+}
+.about__text{
+color:  #0071E4;
+font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 500;
+
+}
+.about__text_div{
+  padding-bottom: 16px;
+}
+.about__list{
+  display: flex;
+  align-items: center;
+}
+.about__list_div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text{
+color: #0071E4;
+font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 500;
+
+}
+.about__tel_div{
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.about__tel {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about__titel{
+color:  #100E0E;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 18px;
+font-weight: 700;
+
+}
+.about__text2{
+color: #706E6E;
+font-family: SF Pro Display;
+font-size: 14px;
+font-weight: 500;
+
+}
+.about_texgt_div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about__text1{
+  color:  #706E6E;
+font-family: SF Pro Display;
+font-size: 14px;
+font-weight: 500;
+
+&::before{
+  width: 12px;
+  height: 12px;
+  content: "";
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(../../img/Ellipse\ 1.svg);
+}
+
+}
+.about_texgt_div{
+  padding-top: 12px;
+}
+.about__titel_div{
+  padding-top: 8px;
+}
+.about__container{
+  display: flex;
+  flex-direction: column;
+  gap:24px ;
+}
+
+.about_texts {
+text-decoration: line-through;
+color: #878787;
+font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 400;
+text-decoration-line: strikethrough;
+
+} 
+.about__btn{
+color: #FFF;
+font-family: SF Pro Display;
+font-size: 20px;
+font-weight: 500;
+border-radius: 8px;
+background-color: #0071E4;
+padding-top: 9px;
+padding-bottom: 9px;
+  
+   &::after{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(../../img/abautkorzikacah.svg);
+    gap: 5px;
+   }
+ 
+}
+
+.about__button_div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+.about__p1{
+color:  #0071E4;
+font-family: SF Pro Display;
+font-size: 14px;
+font-weight: 500;
+
+}
+.about__p2{
+  color:  #706E6E;
+text-align: right;
+font-family: SF Pro Display;
+font-size: 14px;
+font-weight: 500;
+
+}
+.about__p_div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 19px;
+  margin-bottom: 16px;
+}
+.about_block{
+  max-width: 259px;
+  width: 100%;
+}
+
+@media screen and (min-width:768px) {
+  .main_sub{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
+ .about_block{
+  max-width: 259px;
+  width: 100%;
+}
+.about__tatil{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+font-family: SF Pro Display;
+font-size: 40px;
+font-weight: 500;
+
+}
+.about__tatil_div{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+@media screen and (min-width:1200px) {
+   .about_block{
+    width: 282px;
+    width: 100%;
+  }
+  .main_sub{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+  }
+}
+

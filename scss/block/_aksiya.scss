@@ -1,0 +1,66 @@
+
+.aksiya__content{
+  display: none;
+}
+.aksiya__tatil{
+  color: #100E0E;
+font-family: SF Pro Display;
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 8px;
+
+}
+.aksiya__taxt{
+color: #585656;
+font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 16px;
+
+}
+.aksiay__btn{
+  color: #FFF;
+font-family: SF Pro Display;
+font-size: 20px;
+font-weight: 700;
+padding: 8px 30px 8px 30px;
+border-radius: 16px;
+background-color: linear-gradient(90deg, #F7355D 0.3%, #9747FF 101.33%);
+}
+.buttom{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.aksiya__btns1{
+display: flex;
+width: 246px;
+height: 56px;
+padding: 13px 189px 14px 24px;
+align-items: center;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid  #DBDBDB;
+background-color: #FFF;
+&::before{
+  width: 33px;
+  height: 29px;
+  content: "";
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(../../img/+\ 7.svg);
+}
+}
+.aksiay__btns2{
+  display: flex;
+width: 160px;
+height: 56px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 8px;
+background: var(--01, #E7E7E7);
+}
+
